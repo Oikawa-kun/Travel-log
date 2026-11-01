@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: "https://travel-log-backend-e8kp.onrender.com",
   withCredentials: true,
 });
 
